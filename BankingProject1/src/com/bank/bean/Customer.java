@@ -49,9 +49,9 @@ public class Customer
 	
 	public Customer() {
 		this.cid=9;
-		this.cname="LMN";
-		this.cmob=5463820264L;
-		this.cpan=34576;
+		this.cname="ABX";
+		this.cmob=6789543461L;
+		this.cpan=5678;
 	}
 	public Customer(int cid, String cname, long cmob, int cpan) {
 		super();
