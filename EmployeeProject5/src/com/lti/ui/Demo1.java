@@ -4,9 +4,9 @@ public class Demo1 {
 
 	public static void main(String[] args) 
 	{
-		Employee emp=new Employee(100, "King", 24000.00); //Generating Super class object
-		Manager m=new Manager(101,"Raja",50000.00, "IT");    //Generating Sub class object
-		Engineer en=new Engineer(102,"Aamir Khan", 25000.00, "Swiggy");   //Generating Sub class object
+		Employee emp=new Employee(100, "Esther", 240000.00); //Generating Super class object
+		Manager m=new Manager(101,"David",50000.00, "IT");    //Generating Sub class object
+		Engineer en=new Engineer(102,"Abel", 25000.00, "Swiggy");   //Generating Sub class object
 		
 		String empdata=emp.toString();
 		System.out.println(empdata);
